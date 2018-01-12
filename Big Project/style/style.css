@@ -1,0 +1,65 @@
+.main {
+    background-image: url("../media/background.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+.panel-body img {
+    background: transparent;
+}
+
+.d-block {
+    height: 450px;
+}
+
+
+.img-responsive {
+    height: 200px;
+   
+}
+
+#mainPanel {
+    padding-top: 10px;
+}
+
+.panel-heading {
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#roadBikeBackground{
+    background-image: url("../media/roadBike.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+iframe{
+    margin-left: -14.9px;
+    margin-bottom: -6px;
+}
+#iframePara{
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.footer {
+    height: 50px;
+    background-color: rgb(12, 12, 12);
+    text-align: center;
+}
+
+.footer-span {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+@media all and (max-width: 780px) {
+    .d-block {
+        height: 350px;
+        width: 200px;
+    }
+}
